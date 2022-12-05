@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title></title>
+</head>
+
+<body>
+	<script>
+		var num1 = parseInt(prompt('Ingrese distancia en metros:', ''));
+		
+
+		if (num1 > 0 && num1 <= 1000) {
+			document.write(`Viajar a pie`);
+		} else if (num1 >1000 && num1 <= 10000)  {
+			document.write(`Viajar en bicibleta`);
+		}  else if (num1 >10000 && num1 <= 30000)  {
+			document.write(`Viajar en colectivo`);
+		} else if (num1 >30000 && num1 <= 100000)  {
+			document.write(`Viajar en auto`);
+		}else if (num1 >100000)  {
+			document.write(`Viajar en avion`);
+        }else{
+            document.write(`Numero no valido`);
+        }
+
+	</script>
+
+</body>
+
+</html>
