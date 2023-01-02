@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Open+Sans:ital,wght@1,300&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="../Maquetado/css/tabaqueria.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+
+<body >
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Smoky Tabaqueria</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Carrito</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Menu de productos
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Habanos</a></li>
+                            <li><a class="dropdown-item" href="#">Armadores</a></li>
+                            <li><a class="dropdown-item" href="#">Tabacos</a></li>
+                            <li><a class="dropdown-item" href="#">Filtros</a></li>
+                            <li><a class="dropdown-item" href="#">Liyos</a></li>
+                            <li><a class="dropdown-item" href="#">Pipas</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div id="home" class="row align-items-center hero">
+            <div class="col-lg-3 offset-lg-2">
+                <p></p>
+                <h1>Smoky tabaqueria</h1>
+                <p></p>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div id="fondo" class="row my-3">
+
+        <div id="novedades " class="col-md-5 offset-md-2">
+            <h2>Productos</h2>
+            <ul class="lista-novedades">
+                <li><a href="#"><img src="img/habanoscch2.jpg"> </a> Habanos</li>
+                <li><a href="#"><img src="img/armador.jpg"> </a>Armadores</li>
+                <li><a href="#"><img src="img/pipa.jpg"> </a>Pipas</li>
+                <li><a href="#"><img src="img/tabaco.jpg"> </a>Tabacos</li>
+                <li><a href="#"><img src="img/bandejas.jpg"> </a>Bandejas</li>
+            </ul>
+        </div>
+        <div class="col-md-3 my-3">
+            <div class="rouded py-5 testimonios">
+                <h2 class="text-center">Combos de oferta</h2>
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1">
+                        </button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2">
+                        </button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3">
+                        </button>
+
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="testimonio">
+                                <h5>"For three"</h5>
+                                <a href="#"><img src="img/verde.jpg" alt=""></a>
+                                <p>Picador,armador,bandeja.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item ">
+                            <div class="testimonio">
+                                <h5>"Surfer Yellow"</h5>
+                                <a href="#"><img src="img/amarillo.jpg" alt=""></a>
+                                <p>Picador,bandeja,tabaco,armador,encerdedor</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item ">
+                            <div class="testimonio">
+                                <h5>"Paper Color"</h5>
+                                <a href="#"><img src="img/de3.jpg" alt=""></a>
+                                <p>Combo de 3 hojillas.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+
+                </div id="conocenos" class="row py-4">
+                <div class="col-md-4 offset-md-2">
+                    <h2>Visitanos</h2>
+                    <div class="mapa">
+                        <iframe
+                            src="https://www.google.com/maps/place/Lover+Autoservicio/@-31.3835419,-58.0085942,18z/data=!4m13!1m7!3m6!1s0x95ade8093e560701:0x5d1d34b223a6f091!2sConcordia,+Entre+Ríos!3b1!8m2!3d-31.3913921!4d-58.017434!3m4!1s0x95ade96705fd9ac7:0xc06af42b5a3b0ace!8m2!3d-31.3827427!4d-58.0089646"></iframe>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div>
+
+            </div>
+
+
+        </div>
+    </div>
+    </div>
+
+    <div class="col-md-4 mt-4 mt-sm-0">
+        <h2>Contactanos</h2>
+        <form class="row g-3">
+            <div class="col-md-6">
+                <label for="nombre" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="nombre">
+            </div>
+            <div class="col-md-6">
+                <label for="apellido" class="form-label">Apellido</label>
+                <input type="text" class="form-control" id="apellido">
+            </div>
+            <div class="col-md-12">
+                <label for="Mail" class="form-label">Mail</label>
+                <input type="mail" class="form-control" id="mail">
+            </div>
+            <div class="col-md-12">
+                <label for="tel" class="form-label">Telefono</label>
+                <input type="tel" class="form-control" id="tel">
+            </div>
+            <div class="col-md-12">
+                <label for="mensaje" class="form-label">Mensaje</label>
+                <textarea type="mensaje" class="form-control" id="mensaje" rows="3">
+                    </textarea>
+            </div>
+            <div class="col-md-12">
+                <button type="submit" class="btn btn-primary">Enviar</button>
+
+               
+            </div>
+
+        </form>
+
+    </div>
+
+    <footer>
+        <p class="text-center">Diseñado por Leandro Chilindriqui</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
